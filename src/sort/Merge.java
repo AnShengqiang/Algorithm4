@@ -13,7 +13,6 @@ public class Merge {
         int i = lo, j = mid + 1;
         for (int k = lo; k <= hi; k++)
             aux[k] = a[k];
-        for (int k = lo; )
 
     }
 
