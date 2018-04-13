@@ -1,12 +1,9 @@
 package chapter1;
 
-import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
-
-import static edu.princeton.cs.algs4.BinarySearch.rank;
 
 /**
  * @author 安升强
@@ -15,12 +12,18 @@ import static edu.princeton.cs.algs4.BinarySearch.rank;
  */
 public class BinarySearch {
 
+    /**
+     *@discription
+     *@createDate  2018/4/13 11:49
+     *@params
+     *@return
+     */
     public static int rank(int key, int[] a) {
 
         int lo = 0;
         int hi = a.length - 1;
         while (lo <= hi) {
-            int mid = lo + (hi - lo)/2;
+            int mid = lo + (hi - lo) / 2;
             if (key < a[mid]) {
                 hi = mid - 1;
             } else if (key > a[mid]) {
@@ -37,7 +40,7 @@ public class BinarySearch {
         int[] whiteList = {1, 2, 3, 0, 10, 33, 51, 4, 5, 6, 9, 11};
         Arrays.sort(whiteList);
 
-        while(!StdIn.isEmpty()) {
+        while (!StdIn.isEmpty()) {
             int key = StdIn.readInt();
             if (rank(key, whiteList) == -1) {
                 StdOut.println("没找到" + key);
