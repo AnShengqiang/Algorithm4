@@ -4,6 +4,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 /**
  * Created by anshengqiang on 2017/7/27.
+ * 选择排序，先选出最小的，再选出第二小的，第三小的...
  */
 public class Selection {
     public static void sort(Comparable[] a){
