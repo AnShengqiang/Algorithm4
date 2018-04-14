@@ -13,10 +13,8 @@ import java.util.Arrays;
 public class BinarySearch {
 
     /**
-     *@discription
-     *@createDate  2018/4/13 11:49
-     *@params
-     *@return
+     *@描述  二分查找，在数组a中查找key，没有找到则返回-1
+     *@创建时间  2018/4/13 8:18
      */
     public static int rank(int key, int[] a) {
 
