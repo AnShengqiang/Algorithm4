@@ -111,7 +111,7 @@ public class ArrayUtils {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ArrayList<Double> array = new ArrayList<>();
+        ArrayList<Double> array = new ArrayList<Double>();
         String s = scanner.nextLine();
         String[] s1 = s.split(" ");
         for (int i = 0; i < s1.length; i++) {
