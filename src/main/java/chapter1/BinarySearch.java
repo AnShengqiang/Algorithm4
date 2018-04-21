@@ -1,4 +1,4 @@
-package chapter1;
+package main.java.chapter1;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;

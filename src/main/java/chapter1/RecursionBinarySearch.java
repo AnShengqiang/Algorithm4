@@ -1,4 +1,4 @@
-package chapter1;
+package main.java.chapter1;
 
 /**
  * @author 安升强
