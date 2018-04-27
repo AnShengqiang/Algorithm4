@@ -49,6 +49,6 @@ public class StdDrawExample {
     }
 
     public static void main(String[] args) {
-        sortedArray(2);
+        sortedArray(100);
     }
 }
